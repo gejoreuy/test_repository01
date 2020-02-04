@@ -1,0 +1,4 @@
+Will give you a sorted summary of commits which deleted files.
+Then proceed to restore the file by :
+   git checkout 81eeccf~1 <your-lost-file-name>
+Replace 81eeccf with your own commit id.
