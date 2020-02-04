@@ -1,0 +1,2 @@
+In case you have accidentally commited a delete on a file and later realized that you need it back.
+First find the commit id of the commit that deleted your file.
