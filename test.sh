@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Hello..."
+echo "Hello..." `date` >>  test_repository/test.sh.log
