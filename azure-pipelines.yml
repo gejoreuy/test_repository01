@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubunt'
+  vmImage: 'centos-latest'
 
 steps:
 - script: echo Hello, Lord Gejor!
