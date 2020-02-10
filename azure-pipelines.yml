@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'ubunt'
 
 steps:
 - script: echo Hello, Lord Gejor!
