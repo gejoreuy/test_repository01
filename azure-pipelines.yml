@@ -19,7 +19,7 @@ steps:
   displayName: 'Run a multi-line script'
   
 - script: |
-    echo Aku adalah `whoami` >> /root/siapaaku.txt
+    echo Aku adalah `whoami` 
   displayName: 'Siapa aku'
   
 
