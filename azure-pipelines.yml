@@ -22,10 +22,4 @@ steps:
     echo Aku adalah `whoami`
   displayName: 'Siapa aku'
   
-- task: ShellScript@2
-  inputs:
-    #scriptPath: test.sh
-    #args: '' # Optional
-    #disableAutoCwd: false # Optional
-    #cwd: '' # Optional
-    #failOnStandardError: false
+
