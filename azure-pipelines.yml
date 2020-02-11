@@ -19,12 +19,12 @@ steps:
   displayName: 'Run a multi-line script'
   
 - script: |
-    echo Aku adalah `whoami`
+    echo Aku adalah `whoami` > /root/test.txt
   displayName: 'Siapa aku'
   
 - task: ShellScript@2
   inputs:
-    scriptPath: test.sh
+    #scriptPath: test.sh
     #args: '' # Optional
     #disableAutoCwd: false # Optional
     #cwd: '' # Optional
